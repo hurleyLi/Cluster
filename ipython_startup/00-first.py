@@ -16,7 +16,9 @@ params = {'legend.fontsize': 22,
           'axes.labelsize': 22,
           'axes.titlesize':22,
           'xtick.labelsize':22,
-          'ytick.labelsize':22}
+          'ytick.labelsize':22,
+          'figure.dpi':200,
+          'figure.facecolor':'white'}
 plt.rcParams.update(params)
 
 # %load_ext rpy2.ipython
