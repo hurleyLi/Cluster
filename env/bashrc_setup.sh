@@ -3,7 +3,7 @@ alias sn="screen"
 alias sr="screen -r"
 alias less="less -S"
 alias zless="zless -S"
-alias install_hsc="sudo pip uninstall hurleysc; pip install git+https://github.com/hurleyLi/single-cell.git"
+alias install_hsc="sudo pip uninstall hurleysc; sudo pip install git+https://github.com/hurleyLi/single-cell.git"
 
 export PYTHON_SITE="/opt/conda/lib/python3.8/site-packages"
 export HSC_TEMPLATES="/opt/conda/lib/python3.8/site-packages/hurleysc/nb_templates"
